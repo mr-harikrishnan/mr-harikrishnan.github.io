@@ -1,0 +1,180 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: sans-serif;
+}
+
+
+body {
+    overflow-x: hidden;
+}
+
+/* homeContainer */
+
+.home-Container {
+    display: grid;
+    grid-template-rows: 7% 93%;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+}
+
+/* header */
+
+.header {
+    background-color: #2D2D2D;
+    width: 100%;
+    height: 7%;
+    position: fixed;
+    display: flex;
+    justify-content: flex-end;
+    z-index: 5;
+}
+
+.navbar {
+    margin-right: 50px;
+    margin-top: 24px;
+}
+
+.navbar a {
+    margin-right: 50px;
+    font-size: 25px;
+    color: rgb(228, 12, 12);
+    text-decoration: none;
+}
+
+a:hover {
+
+    color: #09C2DD;
+}
+
+#home {
+    background-color: #336699;
+}
+
+
+
+
+
+
+/* homemain */
+
+.home-Container {
+    background-image: url(../assets/images/img\ 01.jpg);
+
+}
+
+.homeMain {
+    position: relative;
+    top: 450px;
+    left: 250px;
+    width: 30%;
+}
+
+.homeMain h1 {
+    color: #09C2DD;
+    font-size: 90px;
+}
+
+.homeMain h3 {
+    color: white;
+    position: relative;
+    font-size: 40px;
+}
+
+
+
+
+
+/* aboutmain */
+
+.about-Container {
+    background-color: black;
+    width: 100VW;
+    height: 100VH;
+    display: grid;
+    grid-template-columns: 50% 49%;
+}
+
+.headline {
+    color: #09C2DD;
+    font-size: 40px;
+    position: relative;
+    left: 100px;
+    top: 190px;
+    text-decoration: underline white;
+}
+
+.aboutProfile {
+    width: 700px;
+    height: 900px;
+    position: relative;
+    top: 160px;
+    left: 150px;
+    overflow-y: hidden;
+
+}
+
+.aboutProfile img {
+    width: 100%;
+    height: 100%;
+}
+
+.myDetails h4 {
+    color: white;
+    position: relative;
+    left: 270px;
+    top: 370px;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+/* skill */
+
+.skill-Container {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(../assets/images/img\ 01.jpg);
+}
+
+.skills-Content {
+    color: white;
+    position: relative;
+    top: 370px;
+    left: 300px;
+    font-size: 50px;
+}
+
+.skill-list {
+    margin-bottom: 30px;
+}
+
+
+
+
+
+/* contact  */
+
+
+.contact-Container {
+    background-image: url(../assets/images/img\ 01.jpg);
+    width: 100vw;
+    height: 100vh;
+}
+
+.contact-Container h3 {
+    color: aliceblue;
+}
+
+.contact-Details {
+    color: white;
+    position: relative;
+    left: 270px;
+    top: 370px;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
