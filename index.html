@@ -4,91 +4,136 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Harikrishnan_portfolio</title>
+    <meta name="Description" content="This the portfolio of Harikrishnan.">
+    <title>Document</title>
     <link rel="stylesheet" href="./css/main.css">
-
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;800;900&family=Poppins:wght@300;400;500;600&display=swap">
 </head>
 
 <body>
+    <!-- header section -->
 
-
-
-    <!-- HOME AND HEADER-->
-    <div class="home-Container" id="home">
-        <div class="header">
-            <div class="navbar">
-                <a href="#home">Home</a>
-                <a href="#about">About</a>
-                <a href="#skills">Skills</a>
-                <a href="#contact">Contact</a>
-            </div>
-        </div>
-
-        <div class="homeMain">
-            <h1>HARIKRISHNAN</h1>
-            <h3>GRAPHICS DESIGNER</h3>
-            <h3>WEB DESIGNER</h3>
-        </div>
-    </div>
-
-    <!-- ABOUT -->
-
-    <div class="about-Container" id="about">
-
-        <div class="aboutContent">
-            <h4 class="headline">About</h4>
-
-            <div class="myDetails">
-                <h4 class="myDetail">Name : Harikrishnan</h4>
-                <h4 class="myDetail">Age : 20</h4>
-                <h4 class="myDetail">Date Of Birth : 11.09.2004</h4>
-                <h4 class="myDetail">Native : Thiruvarur</h4>
-                <h4 class="myDetail">Hobby : Editing</h4>
-            </div>
-
-
-        </div>
-
-        <div class="aboutProfile">
-            <img src="./assets/images/img 02.jpeg" alt="">
-        </div>
-
-    </div>
-
-    <!-- SKILL -->
-
-    <div class="skill-Container" id="skills">
-
-        <h4 class="headline">Skill</h4>
-
-        <ul class="skills-Content">
-            <li class="skill-list">Photo Editing</li>
-            <li class="skill-list">Video Editing</li>
-            <li class="skill-list">Basic html</li>
-            <li class="skill-list">Gaming</li>
+    <header>
+        <a href="#" class="logo">devlo<span>pe</span>r..</a>
+        <nav>
+        <ul class="navList">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <div class="bx bx-menu" id="menu-icon"></div>
         </ul>
+    </nav>
+    </header>
 
-    </div>
+    <!-- home section -->
 
-    <!-- contact -->
+    <section class="home" id="home">
+        <div class="home-text">
+            <div class="slide">
+                <span class="one">Hello</span>
+                <span class="two">I'am</span>
+            </div>
+            <h1 class="nam">Harikrishnan</h1>
+            <h3>Website <span>Designer.</span></h3>
+            <p> I'am an aspiring web developer and<br> also intrested in designing technology. 
+            </p>
+        </div>
+        <div class="button">
+            <a href="#about" class="btn">About Me</a>
+        </div>
+    </section>
 
-    <div class="contact-Container" id="contact">
+    <!-- about section -->
+    <section class="about" id="about">
 
-        <h4 class="headline">Contact</h4>
-
-        <div class="contact-Details">
-            <h4 class="contact">Phone : 848***0920</h4>
-            <h4 class="contact">Gmail : mr.harikrishnan85@gmail.com</h4>
-            <h4 class="contact">Facebook : mr harikrishnanHK</h4>
+        <div class="about-img">
+            <img src="./assets/images/img 3.png" alt="">
         </div>
 
+        <div class="about-text">
+            <h2>About <span>Me</span></h2>
+            <h4>Web Designer!</h4>
+            <p>Hello I'm Harikrishnan from Thiruvarur and I have completed my diplamo in Electrical and Electronics Engineering (EEE).
+                I also have 2+  years of experience in manufacturing industry. 
+               </p>
+               <h5 class="fssa">I am a FSSA STUDENT now.</h5>
+        </div>
+        <!-- <a href="#" class="btn">More About</a> -->
+    </section>
+
+    <!-- skills section -->
+
+    <section class="skills" id="skills">
+        <h2>My <span>Skills</span></h2>
+        <h4 class="coding">Coding</h4>
+        <h4 class="editing">Photo Editing</h4>
+
+        <div class="coding-content">
+            <img src="./assets/images/html img.png" alt="">
+            <img src="./assets/images/css img.png" alt="">
+            <img src="./assets/images/javascript img.png" alt="">
+
+        </div>
+
+        <div class="photo-editing-content">
+            <img src="./assets/images/photoleap img.png" alt="">
+            <img src="./assets/images/snapseed img.png" alt="">
+            <img src="./assets/images/LR img.png" alt="">
+            <img src="./assets/images/photoroom img.png" alt="">
+            <img src="./assets/images/picsart img.png" alt="">
+        </div>
+
+        <a href="../pages/project.html" class="btn">SEE MY GALERY</a>
+    </section>
+
+    <!-- contact section -->
+    <section class="contact" id="contact">
+        <div class="cantact-text">
+            <h2 class="contact-me" id="contact-me">Contact <span>Me!</span></h2>
+            <div id="hint">
+                <h4 >If you have any project in your mind. </h4>
+                <p class="cnt">I'm a web designer</p>
+                <div class="list">
+                    <li><a href="#"><i class='bx bx-phone-call'></i> +91 8489110920</a></li>
+                    <li><a href="#"><i class='bx bxl-gmail' ></i> mr.harikrishnan@gmail.com</a></li>
+                </div>
+            </div>
+            
+
+            <div class="contact-icons">
+               
+
+                   <a href="https://www.facebook.com/HKBharikrishnan"><i class='bx bxl-facebook-circle'></i></a>
+                   <a href="https://x.com/mr_hari_1109"><i class='bx bxl-twitter'></i></a>
+                   <a href="https://www.instagram.com/mr_trox_kid?igsh=MWo1bHVha3VxeGc3aw=="><i class='bx bxl-instagram'></i></a>
+                   <a href="https://mail.google.com/mail/?view=cm&fs=1&to=mr.harikrishnan85@gmail.com">
+                   <i class='bx bxl-gmail'></i></a>
+                
+                    
+            </div>
+        </div>
+
+        <div class="contact-form">
+
+            <form action="https://formsubmit.co/harikrishnan888555@gmail.com" method="POST">
+                <input type="name" placeholder="your Name" required>
+                <input type="email" placeholder="Your Mail" required>
+                <input type="number" placeholder="Your Mobile Number" required>
+                <textarea name="" id="" cols="35" rows="10" placeholder="How Can I Help You" required></textarea>
+                <input type="submit" value="Send Message" class="submit" required>
+                <input type="hidden" name="_captcha" value="false">
+            </form>
+
+        </div>
+        
+    </section>
 
 
 
-    </div>
 
-
-
+<script src="./pages/script.js"></script>
 </body>
 
 </html>
