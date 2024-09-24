@@ -266,9 +266,32 @@ section {
    
 }
 
+.skill-btn{
+    display: inline-block;
+    padding: 12px;
+    background-color: var(--main-color);
+    border-radius: 5px;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    font-weight: 500;
+    transition: all .45s ease;
+    color: var(--text-color);
+    position: relative;
+    top: 60px;
+    margin: 10px;
+}
+
+.code-skill-btn{
+position: relative;
+right: 20px;
+bottom: 50px;
+}
+
+
+
 .photo-editing-content{
     position: relative;
-    top: 80px;
+    top: 100px;
     right: 150px;
 }
 
@@ -284,9 +307,6 @@ section {
     transform: scale(1.1);
     cursor: pointer;
 }
-
-
-
 
 
 .photo-editing-content img{
@@ -317,13 +337,13 @@ section {
 .editing{
     position: relative;
     right: 150px;
-    top: 200px;
+    top: 280px;
 }
 
 .skills .btn{
     position: relative;
-    top: 130px;
-    left: 40px;
+    top: 120px;
+    left: 160px;
 }
 
 /* -------contact section-------- */
