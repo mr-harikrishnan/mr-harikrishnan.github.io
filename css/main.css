@@ -40,7 +40,7 @@ header {
     background:#2D2D2D;
     padding: 22px 15%;
     border-bottom: 1px solid transparent;
-    transition: all .45s ease;
+    /* transition: all .45s ease; */
 }
 
 .logo {
@@ -69,7 +69,7 @@ span {
     font-size: 17px;
     font-weight: 500;
     margin: 0 25px;
-    transition: all .45s ease;
+    /* transition: all .45s ease; */    
 }
 
 
@@ -82,14 +82,7 @@ span {
     color:var(--main-color);
 }
 
-#menu-icon {
-    font-size: 35px;
-    color: var(--text-color);
-    z-index: 1000;
-    cursor: pointer;
-    margin-left: 25px;
-    display: none;
-}
+
 
 section {
     padding: 160px 15% 120px;
@@ -202,7 +195,7 @@ section {
 
 .about-img img:hover{
     transform: scale(1.1);
-    cursor: pointer;
+    cursor: pointer\;
 }
 
 .about-text h2 {
@@ -262,13 +255,16 @@ section {
 
 .coding-content{
     position: relative;
-    right: 150px;
+    right: 145px;
+
+    display: flex;
    
 }
 
+
 .skill-btn{
     display: inline-block;
-    padding: 12px;
+    padding: 9px;
     background-color: var(--main-color);
     border-radius: 5px;
     font-size: 1rem;
@@ -279,11 +275,18 @@ section {
     position: relative;
     top: 60px;
     margin: 10px;
+    width:130px;
+    height: 50px;
+    text-align: center;
+   
 }
 
+
+
 .code-skill-btn{
+    display: flex;
 position: relative;
-right: 20px;
+right: 145px;
 bottom: 50px;
 }
 
@@ -528,7 +531,4 @@ bottom: 50px;
     margin-top: 550px;
     left: 100px;
 }
-
-
-
 
