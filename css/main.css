@@ -61,6 +61,7 @@ span {
     position: relative;
     left: 450px;
     
+    
 
 }
 
@@ -68,8 +69,9 @@ span {
     color: var(--second-color);
     font-size: 17px;
     font-weight: 500;
-    margin: 0 25px;
+    margin:15px;
     /* transition: all .45s ease; */    
+    padding: 8px;
 }
 
 
@@ -79,7 +81,13 @@ span {
 
 .navList a:hover,
 .navList a.active{
-    color:var(--main-color);
+    /* color:var(--main-color); */
+    
+    
+    color: #05b4ff;
+    border:2px solid #05b4ff;
+    border-radius: 15px;
+   
 }
 
 
@@ -290,12 +298,19 @@ right: 145px;
 bottom: 50px;
 }
 
+.skill-btn:hover{
+    transform: scale(0.9);
+    cursor: pointer;
+}
+
+
 
 
 .photo-editing-content{
     position: relative;
     top: 100px;
     right: 150px;
+    
 }
 
 
@@ -303,12 +318,16 @@ bottom: 50px;
    width: 130px;
    height: 130px;
    margin:10px;
+   
+   
+   
 
 }
 
 .coding-content img:hover{
-    transform: scale(1.1);
-    cursor: pointer;
+    /* transform: scale(1.1); */
+    /* cursor: pointer; */
+    transform: rotate(30deg);
 }
 
 
