@@ -339,8 +339,9 @@ bottom: 50px;
 }
 
 .photo-editing-content img:hover{
-    transform: scale(1.1);
-    cursor: pointer;
+    /* transform: scale(1.1); */
+    transform: rotate(30deg);
+    
 }
 
 .skills h4{
