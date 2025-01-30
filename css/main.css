@@ -381,6 +381,7 @@ h1 {
     padding: 50px 15px;
   
     text-align: center;
+    height: 100vh;
 }
 
 .project-section {
@@ -388,7 +389,7 @@ h1 {
     padding: 25px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    height: 25%;    
+    height: 93%;    
     width: 25%;
     margin: 0 auto;
     transition: transform 0.3s ease-in-out;
@@ -401,8 +402,9 @@ h1 {
     position: relative;
     width: 60%;
     line-height:3;
-    bottom: 600px;
     left: 550px;
+    margin-top: -600px;
+   
 }
 
 .project-section:hover {
@@ -412,15 +414,17 @@ h1 {
 .project-section h2 {
     font-size: 28px;
     color: #333;
-    margin-bottom: 15px;
     font-weight: bold;
+    
 }
 
 .project-description {
     font-size: 16px;
     color: #666;
-    margin-bottom: 20px;
+   
     text-align: justify;
+
+   
 }
 
 .project-image {
