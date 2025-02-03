@@ -14,3 +14,30 @@ window.onscroll = () =>{
         }
     });
   };
+
+
+  document.querySelector('.flip-btn').addEventListener('click', function() {
+    document.querySelector('.flip-card').classList.add('active');
+});
+
+document.querySelector('.flip-back-btn').addEventListener('click', function() {
+    document.querySelector('.flip-card').classList.remove('active');
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+  document.querySelectorAll(".skill-card").forEach((card) => {
+      let skillLevel = card.getAttribute("data-skill");
+      let progressBar = card.querySelector(".progress-bar-fill");
+
+      card.addEventListener("mouseover", function () {
+          progressBar.style.width = skillLevel + "%";
+      });
+
+      card.addEventListener("mouseleave", function () {
+          progressBar.style.width = "0%"; // Reset when hover stops
+      });
+  });
+});
+
+
+
